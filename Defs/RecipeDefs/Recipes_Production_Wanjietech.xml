@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- 制作高能胶囊外壳 -->
+  <RecipeDef>
+    <defName>Make_HighEnergyCapsuleShell</defName>
+    <label>make high-energy capsule shell</label>
+    <description>Make a high-energy capsule shell.</description>
+    <jobString>Making high-energy capsule shell.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>1500</workAmount>
+    <unfinishedThingDef>UnfinishedHighEnergyCapsuleShell</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>8</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <HighEnergyCapsuleShell>1</HighEnergyCapsuleShell>
+    </products>
+    <skillRequirements>
+      <Crafting>4</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+    <researchPrerequisite>ModernWanjietech</researchPrerequisite>
+    <recipeUsers>
+      <li>TableMachining</li>
+      <li>ElectricSmithy</li>
+      <li>FueledSmithy</li>
+    </recipeUsers>
+  </RecipeDef>
+
+  <!-- 制作高能胶囊外壳（5份） -->
+  <RecipeDef>
+    <defName>Make_HECapsuleShell5Copies</defName>
+    <label>make high-energy capsule shell (5 copies)</label>
+    <description>Make 5 high-energy capsule shells.</description>
+    <jobString>Making 5 high-energy capsule shells.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>7000</workAmount>
+    <unfinishedThingDef>UnfinishedHighEnergyCapsuleShell</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>40</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <HighEnergyCapsuleShell>5</HighEnergyCapsuleShell>
+    </products>
+    <skillRequirements>
+      <Crafting>5</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+    <researchPrerequisite>ModernWanjietech</researchPrerequisite>
+    <recipeUsers>
+      <li>TableMachining</li>
+      <li>ElectricSmithy</li>
+      <li>FueledSmithy</li>
+    </recipeUsers>
+  </RecipeDef>
+
+  <!-- 制作高能胶囊 -->
+  <RecipeDef>
+    <defName>Make_HighEnergyCapsule</defName>
+    <label>make high-energy capsule</label>
+    <description>Make a high-energy capsule.</description>
+    <jobString>Making high-energy capsule.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>100</workAmount>
+    <unfinishedThingDef>UnfinishedHighEnergyCapsule</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>HighEnergyCapsuleShell</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>HighEnergyFruit</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>HighEnergyCapsuleShell</li>
+        <li>HighEnergyFruit</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <HighEnergyCapsule>1</HighEnergyCapsule>
+    </products>
+    <skillRequirements>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+    <researchPrerequisite>ModernWanjietech</researchPrerequisite>
+    <recipeUsers>
+      <li>CraftingSpot</li>
+      <li>TableMachining</li>
+      <li>FabricationBench</li>
+      <li>ElectricSmithy</li>
+      <li>FueledSmithy</li>
+    </recipeUsers>
+  </RecipeDef>
+
+  <!-- 制作高能胶囊（5份） -->
+  <RecipeDef>
+    <defName>Make_HighEnergyCapsule5Copies</defName>
+    <label>make high-energy capsule (5 copies)</label>
+    <description>Make 5 high-energy capsules.</description>
+    <jobString>Making 5 high-energy capsules.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>450</workAmount>
+    <unfinishedThingDef>UnfinishedHighEnergyCapsule</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>HighEnergyCapsuleShell</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>HighEnergyFruit</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>HighEnergyCapsuleShell</li>
+        <li>HighEnergyFruit</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <HighEnergyCapsule>5</HighEnergyCapsule>
+    </products>
+    <skillRequirements>
+      <Crafting>2</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+    <researchPrerequisite>ModernWanjietech</researchPrerequisite>
+    <recipeUsers>
+      <li>CraftingSpot</li>
+      <li>TableMachining</li>
+      <li>FabricationBench</li>
+      <li>ElectricSmithy</li>
+      <li>FueledSmithy</li>
+    </recipeUsers>
+  </RecipeDef>
+
+  <!-- 制作高能芯片 -->
+  <RecipeDef>
+    <defName>Make_HighEnergyChip</defName>
+    <label>make high-energy chip</label>
+    <description>Make a high-energy chip.</description>
+    <jobString>Making high-energy chip.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>5000</workAmount>
+    <unfinishedThingDef>UnfinishedHighEnergyChip</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>HighEnergyCapsule</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>16</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ComponentIndustrial</li>
+        <li>HighEnergyCapsule</li>
+        <li>Steel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <HighEnergyChip>1</HighEnergyChip>
+    </products>
+    <skillRequirements>
+      <Crafting>8</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+    <researchPrerequisite>AdvancedWanjietech</researchPrerequisite>
+    <recipeUsers>
+      <li>FabricationBench</li>
+    </recipeUsers>
+  </RecipeDef>
+
+  <!-- 制作高能核心 -->
+  <RecipeDef>
+    <defName>Make_HighEnergyCore</defName>
+    <label>make high-energy chip</label>
+    <description>Make a high-energy chip.</description>
+    <jobString>Making high-energy chip.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>20000</workAmount>
+    <unfinishedThingDef>UnfinishedHighEnergyCore</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentSpacer</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>HighEnergyChip</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ComponentSpacer</li>
+        <li>HighEnergyChip</li>
+        <li>Plasteel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <HighEnergyCore>1</HighEnergyCore>
+    </products>
+    <skillRequirements>
+      <Crafting>10</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+    <researchPrerequisite>ExtraordinaryWanjietech</researchPrerequisite>
+    <recipeUsers>
+      <li>FabricationBench</li>
+    </recipeUsers>
+  </RecipeDef>
+</Defs>

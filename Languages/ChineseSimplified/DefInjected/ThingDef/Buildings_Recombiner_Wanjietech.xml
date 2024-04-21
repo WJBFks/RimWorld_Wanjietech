@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 分子重组仪 -->
+
+  <MolecularRecombiner.label>分子重组仪</MolecularRecombiner.label>
+  <MolecularRecombiner.description>重组分子以获得新的物质。</MolecularRecombiner.description>
+
+
+</LanguageData>

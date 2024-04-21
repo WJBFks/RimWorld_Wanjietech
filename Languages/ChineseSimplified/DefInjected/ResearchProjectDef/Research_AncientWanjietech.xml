@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 古代万劫科技 -->
+
+  <AncientWanjietech.label>古代万劫科技</AncientWanjietech.label>
+  <AncientWanjietech.description>古代的万劫科技，你可以进行一些简单的研究。</AncientWanjietech.description>
+
+
+  <!-- 高能果 -->
+
+  <WanjietechHighEnergyFruit.label>高能果</WanjietechHighEnergyFruit.label>
+  <WanjietechHighEnergyFruit.description>允许你种植一种蕴含着极高能量的果子。它富含营养，你可以食用它。在未来你也许可以用它来做更多的事情。</WanjietechHighEnergyFruit.description>
+
+
+</LanguageData>

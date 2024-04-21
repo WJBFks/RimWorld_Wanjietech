@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <UnfinishedHighEnergyCapsuleShell.label>未完成的高能胶囊外壳</UnfinishedHighEnergyCapsuleShell.label>
+  <UnfinishedHighEnergyCapsuleShell.description>未完成的高能胶囊外壳。</UnfinishedHighEnergyCapsuleShell.description>
+
+  <UnfinishedHighEnergyCapsule.label>未完成的高能胶囊</UnfinishedHighEnergyCapsule.label>
+  <UnfinishedHighEnergyCapsule.description>未完成的高能胶囊。</UnfinishedHighEnergyCapsule.description>
+
+  <UnfinishedHighEnergyChip.label>未完成的高能芯片</UnfinishedHighEnergyChip.label>
+  <UnfinishedHighEnergyChip.description>未完成的高能芯片。</UnfinishedHighEnergyChip.description>
+
+  <UnfinishedHighEnergyCore.label>未完成的高能核心</UnfinishedHighEnergyCore.label>
+  <UnfinishedHighEnergyCore.description>未完成的高能核心。</UnfinishedHighEnergyCore.description>
+
+
+</LanguageData>

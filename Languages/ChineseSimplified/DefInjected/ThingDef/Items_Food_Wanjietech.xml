@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <HighEnergyFruit.label>高能果</HighEnergyFruit.label>
+  <HighEnergyFruit.description>它蕴含着能量和营养，可以直接食用或用于制作其他东西。</HighEnergyFruit.description>
+
+  <SyntheticMeat.label>合成肉</SyntheticMeat.label>
+  <SyntheticMeat.description>用高能果人工制作的合成肉。富含营养并可以直接食用。</SyntheticMeat.description>
+
+
+</LanguageData>

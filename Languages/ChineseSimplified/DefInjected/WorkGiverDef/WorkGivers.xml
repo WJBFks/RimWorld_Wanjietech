@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 分子重组 -->
+
+  <DoBillsMolecularRecombiner.label>重组分子于分子重组仪</DoBillsMolecularRecombiner.label>
+  <DoBillsMolecularRecombiner.verb>重组</DoBillsMolecularRecombiner.verb>
+  <DoBillsMolecularRecombiner.gerund>重组于</DoBillsMolecularRecombiner.gerund>
+
+
+</LanguageData>

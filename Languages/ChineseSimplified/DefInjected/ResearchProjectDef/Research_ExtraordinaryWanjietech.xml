@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 超凡万劫科技 -->
+
+  <ExtraordinaryWanjietech.label>超凡万劫科技</ExtraordinaryWanjietech.label>
+  <ExtraordinaryWanjietech.description>你即将达到万劫科技的巅峰，但很多项目你都无法独立完成研究。</ExtraordinaryWanjietech.description>
+
+
+  <!-- 超凡水栽培 -->
+
+  <WanjietechExtraordinaryHydroponicsBasin.label>超凡水栽培</WanjietechExtraordinaryHydroponicsBasin.label>
+  <WanjietechExtraordinaryHydroponicsBasin.description>你发现你可以使用高能核心来控制输入植物的能量，这样你可以大大提高普通植物的生长速度。此外，你还顺便研究了一种小型水培，它只占一格。</WanjietechExtraordinaryHydroponicsBasin.description>
+
+
+  <!-- 万劫超凡电池 -->
+
+  <WanjietechExtraordinaryBattery.label>超凡电池</WanjietechExtraordinaryBattery.label>
+  <WanjietechExtraordinaryBattery.description>解锁万劫科技最高级的蓄电池。</WanjietechExtraordinaryBattery.description>
+
+
+</LanguageData>

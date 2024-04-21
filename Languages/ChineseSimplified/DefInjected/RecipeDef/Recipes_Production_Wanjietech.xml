@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 制作高能胶囊外壳 -->
+
+  <Make_HighEnergyCapsuleShell.label>制作高能胶囊外壳</Make_HighEnergyCapsuleShell.label>
+  <Make_HighEnergyCapsuleShell.description>制作高能胶囊外壳。</Make_HighEnergyCapsuleShell.description>
+  <Make_HighEnergyCapsuleShell.jobString>正在制作高能胶囊外壳。</Make_HighEnergyCapsuleShell.jobString>
+
+
+  <!-- 制作高能胶囊外壳（5份） -->
+
+  <Make_HECapsuleShell5Copies.label>制作高能胶囊外壳（5份）</Make_HECapsuleShell5Copies.label>
+  <Make_HECapsuleShell5Copies.description>制作高能胶囊外壳（5份）。</Make_HECapsuleShell5Copies.description>
+  <Make_HECapsuleShell5Copies.jobString>正在制作高能胶囊外壳（5份）。</Make_HECapsuleShell5Copies.jobString>
+
+
+  <!-- 制作高能胶囊 -->
+
+  <Make_HighEnergyCapsule.label>制作高能胶囊</Make_HighEnergyCapsule.label>
+  <Make_HighEnergyCapsule.description>制作高能胶囊。</Make_HighEnergyCapsule.description>
+  <Make_HighEnergyCapsule.jobString>正在制作高能胶囊。</Make_HighEnergyCapsule.jobString>
+
+
+  <!-- 制作高能胶囊（5份） -->
+
+  <Make_HighEnergyCapsule5Copies.label>制作高能胶囊（5份）</Make_HighEnergyCapsule5Copies.label>
+  <Make_HighEnergyCapsule5Copies.description>制作高能胶囊（5份）。</Make_HighEnergyCapsule5Copies.description>
+  <Make_HighEnergyCapsule5Copies.jobString>正在制作高能胶囊（5份）。</Make_HighEnergyCapsule5Copies.jobString>
+
+
+  <!-- 制作高能芯片 -->
+
+  <Make_HighEnergyChip.label>制作高能芯片</Make_HighEnergyChip.label>
+  <Make_HighEnergyChip.description>制作高能芯片</Make_HighEnergyChip.description>
+  <Make_HighEnergyChip.jobString>正在制作高能芯片。</Make_HighEnergyChip.jobString>
+
+
+  <!-- 制作高能核心 -->
+
+  <Make_HighEnergyCore.label>制作高能核心</Make_HighEnergyCore.label>
+  <Make_HighEnergyCore.description>制作高能核心。</Make_HighEnergyCore.description>
+  <Make_HighEnergyCore.jobString>正在制作高能核心。</Make_HighEnergyCore.jobString>
+
+
+</LanguageData>

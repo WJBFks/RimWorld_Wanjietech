@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 分子重组：合成肉 -->
+
+  <Recombine_SyntheticMeat.label>分子重组：合成肉</Recombine_SyntheticMeat.label>
+  <Recombine_SyntheticMeat.description>重组合成肉。</Recombine_SyntheticMeat.description>
+  <Recombine_SyntheticMeat.jobString>正在重组合成肉。</Recombine_SyntheticMeat.jobString>
+
+
+  <!-- 分子重组：合成肉（5份） -->
+
+  <Recombine_SyntheticMeat5Copies.label>分子重组：合成肉（5份）</Recombine_SyntheticMeat5Copies.label>
+  <Recombine_SyntheticMeat5Copies.description>重组合成肉（5份）。</Recombine_SyntheticMeat5Copies.description>
+  <Recombine_SyntheticMeat5Copies.jobString>正在重组合成肉（5份）。</Recombine_SyntheticMeat5Copies.jobString>
+
+
+  <!-- 分子重组：零部件 -->
+
+  <Recombine_Component.label>分子重组: 零部件</Recombine_Component.label>
+  <Recombine_Component.description>重组零部件。</Recombine_Component.description>
+  <Recombine_Component.jobString>正在重组零部件。</Recombine_Component.jobString>
+
+
+  <!-- 分子重组：砂岩砖 -->
+
+  <Recombine_BlocksSandstone.label>分子重组: 砂岩砖</Recombine_BlocksSandstone.label>
+  <Recombine_BlocksSandstone.description>重组砂岩砖。</Recombine_BlocksSandstone.description>
+  <Recombine_BlocksSandstone.jobString>正在重组砂岩砖。</Recombine_BlocksSandstone.jobString>
+
+
+  <!-- 分子重组：花岗岩砖 -->
+
+  <Recombine_BlocksGranite.label>分子重组: 花岗岩砖</Recombine_BlocksGranite.label>
+  <Recombine_BlocksGranite.description>重组花岗岩砖。</Recombine_BlocksGranite.description>
+  <Recombine_BlocksGranite.jobString>正在重组花岗岩砖。</Recombine_BlocksGranite.jobString>
+
+
+  <!-- 分子重组：石灰岩砖 -->
+
+  <Recombine_BlocksLimestone.label>分子重组: 石灰岩砖</Recombine_BlocksLimestone.label>
+  <Recombine_BlocksLimestone.description>重组石灰岩砖。</Recombine_BlocksLimestone.description>
+  <Recombine_BlocksLimestone.jobString>正在重组石灰岩砖。</Recombine_BlocksLimestone.jobString>
+
+
+  <!-- 分子重组：板岩砖 -->
+
+  <Recombine_BlocksSlate.label>分子重组: 板岩砖</Recombine_BlocksSlate.label>
+  <Recombine_BlocksSlate.description>重组板岩砖。</Recombine_BlocksSlate.description>
+  <Recombine_BlocksSlate.jobString>正在重组板岩砖。</Recombine_BlocksSlate.jobString>
+
+
+  <!-- 分子重组：大理石砖 -->
+
+  <Recombine_BlocksMarble.label>分子重组: 大理石砖</Recombine_BlocksMarble.label>
+  <Recombine_BlocksMarble.description>重组大理石砖。</Recombine_BlocksMarble.description>
+  <Recombine_BlocksMarble.jobString>正在重组大理石砖。</Recombine_BlocksMarble.jobString>
+
+
+</LanguageData>

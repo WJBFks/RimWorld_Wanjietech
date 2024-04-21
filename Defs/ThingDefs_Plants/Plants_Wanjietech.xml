@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="PlantBase">
+    <defName>Plant_HighEnergyFruit</defName>
+    <label>high-energy fruit</label>
+    <description>It is a kind of fruit with high-energy. It has huge nutrition and can be used for food. However, it has high requirements for soil, low yield and long growth period, making it difficult to be planted.</description>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Nutrition>0.5</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/HighEnergyFruitPlant</texPath>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>14</pathCost>
+    <ingestible />
+    <plant>
+      <sowWork>300</sowWork>
+      <fertilityMin>1</fertilityMin>
+      <fertilitySensitivity>2</fertilitySensitivity>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>HighEnergyFruit</harvestedThingDef>
+      <harvestYield>3</harvestYield>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+        <li>HighEnergyHydroponic</li>
+      </sowTags>
+      <sowResearchPrerequisites>
+        <li>WanjietechHighEnergyFruit</li>
+      </sowResearchPrerequisites>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>12</growDays>
+      <immatureGraphicPath>Things/Plant/HighEnergyFruitPlant_Immature</immatureGraphicPath>
+      <visualSizeRange>0.3~1.05</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <purpose>Food</purpose>
+      <humanFoodPlant>true</humanFoodPlant>
+    </plant>
+  </ThingDef>
+</Defs>

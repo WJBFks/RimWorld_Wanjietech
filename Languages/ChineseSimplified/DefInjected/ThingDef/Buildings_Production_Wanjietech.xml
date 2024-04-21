@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 高能水栽培 -->
+
+  <HighEnergyHydroponicsBasin.label>高能水栽培</HighEnergyHydroponicsBasin.label>
+  <HighEnergyHydroponicsBasin.description>改良后的水培技术，可以向植物注入电力，以帮助其快速生长，但由于其高能量，除了高能果没有别的植物可以承受。</HighEnergyHydroponicsBasin.description>
+
+
+  <!-- 超凡水栽培 -->
+
+  <ExtraordinaryHydroponicsBasin.label>超凡水栽培</ExtraordinaryHydroponicsBasin.label>
+  <ExtraordinaryHydroponicsBasin.description>使用高能核心改进的高能水栽培。普通植物也可以在其中生长，并且生长速度极快。</ExtraordinaryHydroponicsBasin.description>
+
+
+  <!-- 超凡水栽培(迷你) -->
+
+  <ExtraordinaryHydroponicsBasinMini.label>超凡水栽培(迷你)</ExtraordinaryHydroponicsBasinMini.label>
+  <ExtraordinaryHydroponicsBasinMini.description>使用高能核心改进的高能水栽培。普通植物也可以在其中生长，并且生长速度极快。</ExtraordinaryHydroponicsBasinMini.description>
+
+
+</LanguageData>

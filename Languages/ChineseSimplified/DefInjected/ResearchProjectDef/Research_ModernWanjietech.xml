@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 现代万劫科技 -->
+
+  <ModernWanjietech.label>现代万劫科技</ModernWanjietech.label>
+  <ModernWanjietech.description>从现在起，你将正式打开万劫科技的大门！</ModernWanjietech.description>
+
+
+  <!-- 分子重组仪 -->
+
+  <WanjietechMolecularRecombiner.label>分子重组仪</WanjietechMolecularRecombiner.label>
+  <WanjietechMolecularRecombiner.description>解锁分子重组器。这台机器可以进行分子重组以获得新物质。</WanjietechMolecularRecombiner.description>
+
+
+  <!-- 合成肉 -->
+
+  <WanjietechSyntheticMeat.label>合成肉</WanjietechSyntheticMeat.label>
+  <WanjietechSyntheticMeat.description>高能果蕴含极高的能量和营养，其中一些营养成分与肉类非常相似，所以你在想它是否可以用来合成肉类食品。\n\n你可以使用你的手工技能在分子重组仪制作合成肉。</WanjietechSyntheticMeat.description>
+
+
+  <!-- 重组零部件 -->
+
+  <WanjietechRecombineComponent.label>重组零部件</WanjietechRecombineComponent.label>
+  <WanjietechRecombineComponent.description>你发现高能胶囊与零部件的成分非常相似，因此你尝试使用高能胶囊重组零部件，幸运的是你成功了，但这个过程非常耗时。</WanjietechRecombineComponent.description>
+
+
+  <!-- 重组石砖 -->
+
+  <WanjietechRecombineStoneBlock.label>重组石砖</WanjietechRecombineStoneBlock.label>
+  <WanjietechRecombineStoneBlock.description>允许你重组任意石砖。</WanjietechRecombineStoneBlock.description>
+
+
+  <!-- 万劫电池 -->
+
+  <WanjietechBatteries.label>万劫电池</WanjietechBatteries.label>
+  <WanjietechBatteries.description>允许你制造来自万劫科技的蓄电池。</WanjietechBatteries.description>
+
+
+</LanguageData>

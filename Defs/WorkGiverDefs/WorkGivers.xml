@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- 分子重组 -->
+  <WorkGiverDef>
+    <defName>DoBillsMolecularRecombiner</defName>
+    <label>recombine molecule at molecular recombiner</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Crafting</workType>
+    <priorityInType>100</priorityInType>
+    <fixedBillGiverDefs>
+      <li>MolecularRecombiner</li>
+    </fixedBillGiverDefs>
+    <verb>recombine</verb>
+    <gerund>recombining at</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+</Defs>

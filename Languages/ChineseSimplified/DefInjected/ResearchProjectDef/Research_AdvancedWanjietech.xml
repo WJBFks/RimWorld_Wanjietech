@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 先进万劫科技 -->
+
+  <AdvancedWanjietech.label>先进万劫科技</AdvancedWanjietech.label>
+  <AdvancedWanjietech.description>您可以研究万劫科技的高级项目。</AdvancedWanjietech.description>
+
+
+  <!-- 高能水栽培 -->
+
+  <WanjietechHighEnergyHydroponicsBasin.label>高能水栽培</WanjietechHighEnergyHydroponicsBasin.label>
+  <WanjietechHighEnergyHydroponicsBasin.description>随着万劫科技的发展，您对高能果的需求越来越大。研究这种独特的栽培方法可以大大加快高能果的成熟，但这种栽培方法不能应用于其他常见植物。</WanjietechHighEnergyHydroponicsBasin.description>
+
+
+  <!-- 万劫仿生学 -->
+
+  <WanjietechBionics.label>万劫仿生学</WanjietechBionics.label>
+  <WanjietechBionics.description>解锁以制造万劫科技的仿生部件。</WanjietechBionics.description>
+
+
+</LanguageData>

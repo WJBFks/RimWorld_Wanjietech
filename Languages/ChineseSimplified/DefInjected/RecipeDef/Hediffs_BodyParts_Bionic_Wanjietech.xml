@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 意识增强器 物品 -->
+
+  <InstallConsciousnessEnhancer.label>安装意识增强器</InstallConsciousnessEnhancer.label>
+  <InstallConsciousnessEnhancer.description>安装意识增强器。</InstallConsciousnessEnhancer.description>
+  <InstallConsciousnessEnhancer.jobString>正在安装意识增强器。</InstallConsciousnessEnhancer.jobString>
+
+  <RemoveConsciousnessEnhancer.label>移除安装意识增强器</RemoveConsciousnessEnhancer.label>
+  <RemoveConsciousnessEnhancer.description>移除安装意识增强器.</RemoveConsciousnessEnhancer.description>
+  <RemoveConsciousnessEnhancer.jobString>正在移除安装意识增强器.</RemoveConsciousnessEnhancer.jobString>
+
+
+</LanguageData>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Wanjietech</name>
+  <author>Wanjie</author>
+  <url></url>
+  <supportedVersions>
+    <li>1.4</li>
+    <li>1.5</li>
+  </supportedVersions>
+  <packageId>Wanjie.Wanjietech</packageId>
+  <description>Wanjietech</description>
+</ModMetaData>

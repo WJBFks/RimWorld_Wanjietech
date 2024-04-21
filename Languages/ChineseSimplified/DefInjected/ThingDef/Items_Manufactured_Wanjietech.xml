@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 高能胶囊外壳 -->
+
+  <HighEnergyCapsuleShell.label>高能胶囊外壳</HighEnergyCapsuleShell.label>
+  <HighEnergyCapsuleShell.description>钢制的胶囊外壳，用于容纳高能果中蕴含的巨大能量。\n\n可以在锻造台或机械加工台制作。</HighEnergyCapsuleShell.description>
+
+
+  <!-- 高能胶囊 -->
+
+  <HighEnergyCapsule.label>高能胶囊</HighEnergyCapsule.label>
+  <HighEnergyCapsule.description>高能胶囊是从高能果中提取能量并放入钢制的胶囊壳中制成的，可以用来制造万劫科技的基本物品。</HighEnergyCapsule.description>
+
+
+  <!-- 高能芯片 -->
+
+  <HighEnergyChip.label>高能芯片</HighEnergyChip.label>
+  <HighEnergyChip.description>将高能胶囊中的能量注入零部件中，可以用于制作万劫科技的先进产品。\n\n可以在精密装配台制作。</HighEnergyChip.description>
+
+
+  <!-- 高能核心 -->
+
+  <HighEnergyCore.label>高能核心</HighEnergyCore.label>
+  <HighEnergyCore.description>由高级零部件和高能芯片制成的高能核心。\n\n可以在精密装配台制作。</HighEnergyCore.description>
+
+
+</LanguageData>

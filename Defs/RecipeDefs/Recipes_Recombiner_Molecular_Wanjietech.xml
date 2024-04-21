@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef Name="BaseMolecularRecipe" Abstract="True">
+    <skillRequirements>
+      <Crafting>8</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+    <recipeUsers>
+      <li>MolecularRecombiner</li>
+    </recipeUsers>
+    <!-- <researchPrerequisites>
+      <li>WanjietechMolecularRecombiner</li>
+    </researchPrerequisites> -->
+  </RecipeDef>
+
+  <!-- 分子重组：合成肉 -->
+  <RecipeDef ParentName="BaseMolecularRecipe">
+    <defName>Recombine_SyntheticMeat</defName>
+    <label>Recombine Molecular: Synthetic Meat</label>
+    <description>Recombine a synthetic meat.</description>
+    <jobString>Recombining synthetic meat.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>100</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>HighEnergyFruit</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>HighEnergyFruit</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <SyntheticMeat>1</SyntheticMeat>
+    </products>
+    <researchPrerequisites>
+      <li>WanjietechSyntheticMeat</li>
+    </researchPrerequisites>
+  </RecipeDef>
+
+  <!-- 分子重组：合成肉（5份） -->
+  <RecipeDef ParentName="BaseMolecularRecipe">
+    <defName>Recombine_SyntheticMeat5Copies</defName>
+    <label>Recombine Molecular: Synthetic Meat (5 copies)</label>
+    <description>Recombine synthetic meat (5 copies).</description>
+    <jobString>Recombining synthetic meat (5 copies).</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>450</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>HighEnergyFruit</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>HighEnergyFruit</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <SyntheticMeat>5</SyntheticMeat>
+    </products>
+    <researchPrerequisites>
+      <li>WanjietechSyntheticMeat</li>
+    </researchPrerequisites>
+  </RecipeDef>
+
+  <!-- 分子重组：零部件 -->
+  <RecipeDef ParentName="BaseMolecularRecipe">
+    <defName>Recombine_Component</defName>
+    <label>Recombine Molecular: Component</label>
+    <description>Recombine a component.</description>
+    <jobString>Recombining component.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>6000</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>HighEnergyCapsule</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>HighEnergyCapsule</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </products>
+    <researchPrerequisites>
+      <li>WanjietechRecombineComponent</li>
+    </researchPrerequisites>
+  </RecipeDef>
+
+
+  <!-- Abstract 分子重组：石砖 -->
+  <RecipeDef Name="Recombine_StoneBlock" Abstract="True" ParentName="BaseMolecularRecipe">
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>HighEnergyCapsule</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <categories>
+            <li>StoneBlocks</li>
+          </categories>
+        </filter>
+        <count>200</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>StoneBlocks</li>
+      </categories>
+    </fixedIngredientFilter>
+    <researchPrerequisites>
+      <li>WanjietechRecombineStoneBlock</li>
+    </researchPrerequisites>
+  </RecipeDef>
+
+  <!-- 分子重组：砂岩砖 -->
+  <RecipeDef ParentName="Recombine_StoneBlock">
+    <defName>Recombine_BlocksSandstone</defName>
+    <label>Recombine Molecular: Sandstone Blocks</label>
+    <description>Recombine sandstone blocks.</description>
+    <jobString>Recombining sandstone blocks.</jobString>
+    <products>
+      <BlocksSandstone>200</BlocksSandstone>
+    </products>
+  </RecipeDef>
+
+  <!-- 分子重组：花岗岩砖 -->
+  <RecipeDef ParentName="Recombine_StoneBlock">
+    <defName>Recombine_BlocksGranite</defName>
+    <label>Recombine Molecular: Granite Blocks</label>
+    <description>Recombine granite blocks.</description>
+    <jobString>Recombining granite blocks.</jobString>
+    <products>
+      <BlocksGranite>200</BlocksGranite>
+    </products>
+  </RecipeDef>
+
+  <!-- 分子重组：石灰岩砖 -->
+  <RecipeDef ParentName="Recombine_StoneBlock">
+    <defName>Recombine_BlocksLimestone</defName>
+    <label>Recombine Molecular: Limestone Blocks</label>
+    <description>Recombine limestone blocks.</description>
+    <jobString>Recombining limestone blocks.</jobString>
+    <products>
+      <BlocksLimestone>200</BlocksLimestone>
+    </products>
+  </RecipeDef>
+
+  <!-- 分子重组：板岩砖 -->
+  <RecipeDef ParentName="Recombine_StoneBlock">
+    <defName>Recombine_BlocksSlate</defName>
+    <label>Recombine Molecular: Slate Blocks</label>
+    <description>Recombine slate blocks.</description>
+    <jobString>Recombining slate blocks.</jobString>
+    <products>
+      <BlocksSlate>200</BlocksSlate>
+    </products>
+  </RecipeDef>
+
+  <!-- 分子重组：大理石砖 -->
+  <RecipeDef ParentName="Recombine_StoneBlock">
+    <defName>Recombine_BlocksMarble</defName>
+    <label>Recombine Molecular: Marble Blocks</label>
+    <description>Recombine marble blocks.</description>
+    <jobString>Recombining marble blocks.</jobString>
+    <products>
+      <BlocksMarble>200</BlocksMarble>
+    </products>
+  </RecipeDef>
+
+</Defs>

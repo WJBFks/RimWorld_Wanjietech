@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="PlantFoodRawBase">
+    <defName>HighEnergyFruit</defName>
+    <label>high-energy fruit</label>
+    <description>It contains energy and nutrition, and can be eaten directly or used to make other things.</description>
+    <possessionCount>10</possessionCount>
+    <graphicData>
+      <texPath>Things/Item/HighEnergyFruit</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>5</MarketValue>
+      <Mass>0.03</Mass>
+      <Nutrition>0.25</Nutrition>
+      <FoodPoisonChanceFixedHuman>0</FoodPoisonChanceFixedHuman>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>10</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <ingestible>
+      <preferability>RawTasty</preferability>
+      <tasteThought></tasteThought>
+      <foodType>VegetableOrFruit</foodType>
+      <optimalityOffsetHumanlikes>-15</optimalityOffsetHumanlikes>
+      <optimalityOffsetFeedingAnimals>-15</optimalityOffsetFeedingAnimals>
+    </ingestible>
+  </ThingDef>
+
+  <ThingDef Abstract="True" Name="WanjietechSyntheticMeatBase" ParentName="OrganicProductBase">
+    <ingestible>
+      <preferability>MealSimple</preferability>
+      <tasteThought></tasteThought>
+      <foodType>Processed, Meal</foodType>
+      <ingestEffect>EatMeat</ingestEffect>
+      <ingestSound>RawMeat_Eat</ingestSound>
+      <optimalityOffsetHumanlikes>-15</optimalityOffsetHumanlikes>
+      <optimalityOffsetFeedingAnimals>-15</optimalityOffsetFeedingAnimals>
+    </ingestible>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <thingCategories>
+      <li>MeatRaw</li>
+    </thingCategories>
+    <allowedArchonexusCount>200</allowedArchonexusCount>
+  </ThingDef>
+
+  <ThingDef ParentName="WanjietechSyntheticMeatBase">
+    <defName>SyntheticMeat</defName>
+    <label>synthetic meat</label>
+    <description>The meat artificially synthesized with high-energy fruits. It is nutritious and can be eaten directly.</description>
+    <possessionCount>10</possessionCount>
+    <graphicData>
+      <texPath>Things/Item/SyntheticMeat</texPath>
+    </graphicData>
+    <statBases>
+      <WorkToMake>900</WorkToMake>
+      <MarketValue>10</MarketValue>
+      <Mass>0.04</Mass>
+      <Nutrition>0.25</Nutrition>
+      <FoodPoisonChanceFixedHuman>0</FoodPoisonChanceFixedHuman>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>10</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <costList>
+      <HighEnergyFruit>4</HighEnergyFruit>
+    </costList>
+  </ThingDef>
+
+</Defs>

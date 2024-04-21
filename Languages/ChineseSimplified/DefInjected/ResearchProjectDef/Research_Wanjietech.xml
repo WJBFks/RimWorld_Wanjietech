@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 古代万劫科技 -->
+
+  <!--<AncientWanjietech.label>古代万劫科技</AncientWanjietech.label>-->
+  <!--<AncientWanjietech.description>古代的万劫科技，你可以进行一些简单的研究。</AncientWanjietech.description>-->
+
+
+  <!-- 现代万劫科技 -->
+
+  <!--<ModernWanjietech.label>现代万劫科技</ModernWanjietech.label>-->
+  <!--<ModernWanjietech.description>从现在起，你将正式打开万劫科技的大门！</ModernWanjietech.description>-->
+
+
+  <!-- 现代万劫科技 -->
+
+  <!--<AdvancedWanjietech.label>现代万劫科技</AdvancedWanjietech.label>-->
+  <!--<AdvancedWanjietech.description>您可以研究万劫科技的高级项目。</AdvancedWanjietech.description>-->
+
+
+  <!-- 超凡万劫科技 -->
+
+  <!--<ExtraordinaryWanjietech.label>超凡万劫科技</ExtraordinaryWanjietech.label>-->
+  <!--<ExtraordinaryWanjietech.description>你即将达到万劫科技的巅峰，但很多项目你都无法独立完成研究。</ExtraordinaryWanjietech.description>-->
+
+
+  <!-- 高能果 -->
+
+  <!--<WanjietechHighEnergyFruit.label>高能果</WanjietechHighEnergyFruit.label>-->
+  <!--<WanjietechHighEnergyFruit.description>允许你种植一种蕴含着极高能量的果子。它富含营养，你可以食用它。在未来你也许可以用它来做更多的事情。</WanjietechHighEnergyFruit.description>-->
+
+
+  <!-- 合成肉 -->
+
+  <!--<WanjietechSyntheticMeat.label>合成肉</WanjietechSyntheticMeat.label>-->
+  <!--<WanjietechSyntheticMeat.description>高能果蕴含极高的能量和营养，其中一些营养成分与肉类非常相似，所以你在想它是否可以用来合成肉类食品。\n\n你可以使用你的手工技能在分子重组仪制作合成肉。</WanjietechSyntheticMeat.description>-->
+
+
+  <!-- 高能水栽培 -->
+
+  <!--<WanjietechHighEnergyHydroponicsBasin.label>高能水栽培</WanjietechHighEnergyHydroponicsBasin.label>-->
+  <!--<WanjietechHighEnergyHydroponicsBasin.description>随着万劫科技的发展，您对高能果的需求越来越大。研究这种独特的栽培方法可以大大加快高能果的成熟，但这种栽培方法不能应用于其他常见植物。</WanjietechHighEnergyHydroponicsBasin.description>-->
+
+
+  <!-- 超凡水栽培 -->
+
+  <!--<WanjietechExtraordinaryHydroponicsBasin.label>超凡水栽培</WanjietechExtraordinaryHydroponicsBasin.label>-->
+  <!--<WanjietechExtraordinaryHydroponicsBasin.description>你发现你可以使用高能核心来控制输入植物的能量，这样你可以大大提高普通植物的生长速度。此外，你还顺便研究了一种小型水培，它只占一格。</WanjietechExtraordinaryHydroponicsBasin.description>-->
+
+
+  <!-- 分子重组仪 -->
+
+  <!--<WanjietechMolecularRecombiner.label>分子重组仪</WanjietechMolecularRecombiner.label>-->
+  <!--<WanjietechMolecularRecombiner.description>解锁分子重组器。这台机器可以进行分子重组以获得新物质。</WanjietechMolecularRecombiner.description>-->
+
+
+  <!-- 万劫电池 -->
+
+  <!--<WanjietechBatteries.label>万劫电池</WanjietechBatteries.label>-->
+  <!--<WanjietechBatteries.description>允许你制造来自万劫科技的蓄电池。</WanjietechBatteries.description>-->
+
+
+  <!-- 万劫超凡电池 -->
+
+  <!--<WanjietechExtraordinaryBattery.label>超凡电池</WanjietechExtraordinaryBattery.label>-->
+  <!--<WanjietechExtraordinaryBattery.description>解锁万劫科技最高级的蓄电池。</WanjietechExtraordinaryBattery.description>-->
+
+
+  <!-- 万劫仿生学 -->
+
+  <!--<WanjietechBionics.label>万劫仿生学</WanjietechBionics.label>-->
+  <!--<WanjietechBionics.description>解锁以制造万劫科技的仿生部件。</WanjietechBionics.description>-->
+
+
+  <!-- 万劫分子重组仪 -->
+  <!-- 万劫科技 -->
+
+</LanguageData>

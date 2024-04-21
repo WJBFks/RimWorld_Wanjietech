@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 廉价电池 -->
+
+  <WanjieCheapBattery.label>廉价电池</WanjieCheapBattery.label>
+  <WanjieCheapBattery.description>虽然比普通电池稍弱，但其成本较低。最重要的是，不需要使用零部件。</WanjieCheapBattery.description>
+
+
+  <!-- 现代电池 -->
+
+  <WanjieModernBattery.label>现代电池</WanjieModernBattery.label>
+  <WanjieModernBattery.description>万劫科技的现代电池具有更高的存储容量和效率。</WanjieModernBattery.description>
+
+
+  <!-- 先进电池 -->
+
+  <WanjieAdvancedBattery.label>先进电池</WanjieAdvancedBattery.label>
+  <WanjieAdvancedBattery.description>电池的存储容量和效率进一步提高。</WanjieAdvancedBattery.description>
+
+
+  <!-- 超凡电池 -->
+
+  <WanjieExtraordinaryBattery.label>超凡电池</WanjieExtraordinaryBattery.label>
+  <WanjieExtraordinaryBattery.description>万劫科技最先进的技术电池具有极高的存储容量和几乎无损的效率。此外，它不会在雨中短路。</WanjieExtraordinaryBattery.description>
+
+
+</LanguageData>

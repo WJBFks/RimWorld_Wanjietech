@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- 现代万劫科技 - 基础 -->
+  <ResearchProjectDef Abstract="True" Name="ModernWanjietechBase">
+    <techLevel>Industrial</techLevel>
+    <tab>Wanjietech</tab>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+  </ResearchProjectDef>
+
+  <!-- 现代万劫科技 -->
+  <ResearchProjectDef>
+    <defName>ModernWanjietech</defName>
+    <label>Modern Wanjietech</label>
+    <description>From now on, you have officially opened the door of Wanjietech!</description>
+    <baseCost>800</baseCost>
+    <techLevel>Industrial</techLevel>
+    <researchViewX>2</researchViewX>
+    <researchViewY>3</researchViewY>
+    <tab>Wanjietech</tab>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <prerequisites>
+      <li>AncientWanjietech</li>
+      <li>WanjietechHighEnergyFruit</li>
+    </prerequisites>
+    <tags>
+      <li>ClassicStart</li>
+    </tags>
+  </ResearchProjectDef>
+
+  <!-- 分子重组仪 -->
+  <ResearchProjectDef ParentName="ModernWanjietechBase">
+    <defName>WanjietechMolecularRecombiner</defName>
+    <label>Molecular Recombiner</label>
+    <description>Unlock the molecular recombiner. This machine can be molecular restructured to
+      obtain a new substance.</description>
+    <baseCost>1500</baseCost>
+    <researchViewX>3</researchViewX>
+    <researchViewY>1</researchViewY>
+    <prerequisites>
+      <li>ModernWanjietech</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <!-- 合成肉 -->
+  <ResearchProjectDef ParentName="ModernWanjietechBase">
+    <defName>WanjietechSyntheticMeat</defName>
+    <label>Synthetic Meat</label>
+    <description>High energy fruit contains very high energy and nutrition, and some of the nutrients are very similar to meat, so you should consider whether it can be used to make meat food. \n\nYou can use your crafting skills to make synthetic meat on the molecular recombiner.</description>
+    <baseCost>500</baseCost>
+    <researchViewX>4</researchViewX>
+    <researchViewY>0</researchViewY>
+    <prerequisites>
+      <li>WanjietechMolecularRecombiner</li>
+    </prerequisites>
+    <hiddenPrerequisites>
+      <li>WanjietechHighEnergyFruit</li>
+    </hiddenPrerequisites>
+  </ResearchProjectDef>
+
+  <!-- 重组零部件 -->
+  <ResearchProjectDef ParentName="ModernWanjietechBase">
+    <defName>WanjietechRecombineComponent</defName>
+    <label>Recombine Component</label>
+    <description>You realize that the composition of the high-energy capsule is very similar to the components, so you try to recombine the components using the high-energy capsule, and luckily you succeed, but the process is time-consuming.</description>
+    <baseCost>800</baseCost>
+    <researchViewX>4</researchViewX>
+    <researchViewY>0.5</researchViewY>
+    <prerequisites>
+      <li>WanjietechMolecularRecombiner</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <!-- 重组石砖 -->
+  <ResearchProjectDef ParentName="ModernWanjietechBase">
+    <defName>WanjietechRecombineStoneBlock</defName>
+    <label>Recombine Stone Block</label>
+    <description>Allows you to recombine any stone block.</description>
+    <baseCost>400</baseCost>
+    <researchViewX>4</researchViewX>
+    <researchViewY>1</researchViewY>
+    <prerequisites>
+      <li>WanjietechMolecularRecombiner</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <!-- 万劫电池 -->
+  <ResearchProjectDef ParentName="ModernWanjietechBase">
+    <defName>WanjietechBatteries</defName>
+    <label>Wanjie Batteries</label>
+    <description>Allows you to create batteries from Wanjietech.</description>
+    <baseCost>1000</baseCost>
+    <researchViewX>3</researchViewX>
+    <researchViewY>6.5</researchViewY>
+    <prerequisites>
+      <li>ModernWanjietech</li>
+      <li>Batteries</li>
+    </prerequisites>
+  </ResearchProjectDef>
+</Defs>
