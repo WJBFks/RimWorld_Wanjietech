@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- 太空万劫科技 - 基础 -->
+  <ResearchProjectDef Abstract="True" Name="SpacerWanjietechBase">
+    <techLevel>Spacer</techLevel>
+    <tab>Wanjietech</tab>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+  </ResearchProjectDef>
+
+  <!-- 太空万劫科技 -->
+  <ResearchProjectDef>
+    <defName>SpacerWanjietech</defName>
+    <label>Spacer Wanjietech</label>
+    <description>When you go into space, you'll realize how amazing Wanjietech is.</description>
+    <baseCost>2000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <researchViewX>7</researchViewX>
+    <researchViewY>3</researchViewY>
+    <tab>Wanjietech</tab>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <prerequisites>
+      <li>AdvancedWanjietech</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <!-- 奇异物质收集器 -->
+  <ResearchProjectDef ParentName="SpacerWanjietechBase">
+    <defName>WanjietechStrangeMatterCollector</defName>
+    <label>Strange Matter Collector</label>
+    <description>In space you discover a strange particle you call Strange Matter, who seems to have many surprising properties, and you also discover a way to collect it.</description>
+    <baseCost>400</baseCost>
+    <researchViewX>8</researchViewX>
+    <researchViewY>1</researchViewY>
+    <prerequisites>
+      <li>SpacerWanjietech</li>
+    </prerequisites>
+  </ResearchProjectDef>
+</Defs>

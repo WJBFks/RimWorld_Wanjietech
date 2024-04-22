@@ -264,15 +264,15 @@
     </researchPrerequisites>
   </ThingDef>
 
-  <!-- 超凡电池 -->
+  <!-- 极致电池 -->
   <ThingDef ParentName="BuildingBase">
-    <defName>WanjieExtraordinaryBattery</defName>
+    <defName>WanjieUltraBattery</defName>
     <label>extraordinary battery</label>
     <description>The most advanced technology battery of Wanjietech has extremely high storage capacity and nearly lossless efficiency.In addition, it will not short circuit in rain.</description>
     <drawerType>MapMeshAndRealTime</drawerType>
     <thingClass>Building_Battery</thingClass>
     <graphicData>
-      <texPath>Things/Building/Batteries/WanjieExtraordinaryBattery</texPath>
+      <texPath>Things/Building/Batteries/WanjieUltraBattery</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <drawSize>(2,3)</drawSize>
       <damageData>
@@ -327,7 +327,7 @@
     <designationHotKey>Misc4</designationHotKey>
     <canOverlapZones>false</canOverlapZones>
     <researchPrerequisites>
-      <li>WanjietechExtraordinaryBattery</li>
+      <li>WanjietechUltraBattery</li>
     </researchPrerequisites>
   </ThingDef>
 </Defs>

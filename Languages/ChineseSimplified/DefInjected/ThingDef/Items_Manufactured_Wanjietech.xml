@@ -25,4 +25,16 @@
   <HighEnergyCore.description>由高级零部件和高能芯片制成的高能核心。\n\n可以在精密装配台制作。</HighEnergyCore.description>
 
 
+  <!-- 奇异物质容器 -->
+
+  <StrangeMatterContainer.label>奇异物质容器</StrangeMatterContainer.label>
+  <StrangeMatterContainer.description>一个蕴含巨大能量的容器，能将奇异物质安全地束缚在其中。</StrangeMatterContainer.description>
+
+
+  <!-- 奇异物质 -->
+
+  <StrangeMatter.label>奇异物质</StrangeMatter.label>
+  <StrangeMatter.description>一种奇特的物质，蕴含着巨大的能量，拥有许多神奇的特性。</StrangeMatter.description>
+
+
 </LanguageData>

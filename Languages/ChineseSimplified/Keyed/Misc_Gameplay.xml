@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Building _StrangeMatterCollector -->
+  <BuildingStrangeMatterCollectorContained>含有{0}</BuildingStrangeMatterCollectorContained>
+  <BuildingStrangeMatterCollectorPerDay>每日</BuildingStrangeMatterCollectorPerDay>
+  <BuildingStrangeMatterCollectorEjectContents>弹出内容物</BuildingStrangeMatterCollectorEjectContents>
+  <BuildingStrangeMatterCollectorEjectContentsDesc>将所有{0}弹出。</BuildingStrangeMatterCollectorEjectContentsDesc>
+  <BuildingStrangeMatterCollectorToggleUnloading>切换{0}卸货</BuildingStrangeMatterCollectorToggleUnloading>
+  <BuildingStrangeMatterCollectorToggleUnloadingDesc>激活后，殖民者会在{0}装满时自动从采集器中取出{0}。</BuildingStrangeMatterCollectorToggleUnloadingDesc>
+
+</LanguageData>

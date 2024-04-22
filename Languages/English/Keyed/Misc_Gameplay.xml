@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Building _StrangeMatterCollector -->
+  <BuildingStrangeMatterCollectorContained>{0} contained</BuildingStrangeMatterCollectorContained>
+  <BuildingStrangeMatterCollectorPerDay>per day</BuildingStrangeMatterCollectorPerDay>
+  <BuildingStrangeMatterCollectorEjectContents>Eject contents</BuildingStrangeMatterCollectorEjectContents>
+  <BuildingStrangeMatterCollectorEjectContentsDesc>Eject all contained {0} onto the ground.</BuildingStrangeMatterCollectorEjectContentsDesc>
+  <BuildingStrangeMatterCollectorToggleUnloading>Toggle {0} unloading</BuildingStrangeMatterCollectorToggleUnloading>
+  <BuildingStrangeMatterCollectorToggleUnloadingDesc>When active, colonists will automatically unload {0} from the strange matter collector as it is filling up.</BuildingStrangeMatterCollectorToggleUnloadingDesc>
+
+</LanguageData>

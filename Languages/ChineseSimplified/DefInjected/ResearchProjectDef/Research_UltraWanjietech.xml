@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 极致万劫科技 -->
+
+  <UltraWanjietech.label>极致万劫科技</UltraWanjietech.label>
+  <UltraWanjietech.description>你即将达到万劫科技的巅峰，但很多项目你都无法独立完成研究。</UltraWanjietech.description>
+
+
+  <!-- 极致水栽培 -->
+
+  <WanjietechUltraHydroponicsBasin.label>极致水栽培</WanjietechUltraHydroponicsBasin.label>
+  <WanjietechUltraHydroponicsBasin.description>你发现你可以使用高能核心来控制输入植物的能量，这样你可以大大提高普通植物的生长速度。此外，你还顺便研究了一种小型水培，它只占一格。</WanjietechUltraHydroponicsBasin.description>
+
+
+  <!-- 万劫极致电池 -->
+
+  <WanjietechUltraBattery.label>极致电池</WanjietechUltraBattery.label>
+  <WanjietechUltraBattery.description>解锁万劫科技最高级的蓄电池。</WanjietechUltraBattery.description>
+
+
+</LanguageData>

@@ -62,14 +62,14 @@
     <designationCategory>Wanjietech</designationCategory>
   </ThingDef>
 
-  <!-- 超凡水栽培 -->
+  <!-- 极致水栽培 -->
   <ThingDef ParentName="BuildingBase">
-    <defName>ExtraordinaryHydroponicsBasin</defName>
+    <defName>UltraHydroponicsBasin</defName>
     <label>extraordinary hydroponics basin</label>
     <description>Improved high-energy hydroponics using high-energy cores. Common plants can also grow in it, and have extremely fast growth speed.</description>
     <thingClass>Building_PlantGrower</thingClass>
     <graphicData>
-      <texPath>Things/Building/Production/ExtraordinaryHydroponicsBasin</texPath>
+      <texPath>Things/Building/Production/UltraHydroponicsBasin</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <drawSize>(1,4)</drawSize>
       <damageData>
@@ -117,20 +117,20 @@
       <li Class="CompProperties_Flickable" />
     </comps>
     <researchPrerequisites>
-      <li>WanjietechExtraordinaryHydroponicsBasin</li>
+      <li>WanjietechUltraHydroponicsBasin</li>
     </researchPrerequisites>
     <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
     <designationCategory>Wanjietech</designationCategory>
   </ThingDef>
 
-  <!-- 超凡水栽培(迷你) -->
+  <!-- 极致水栽培(迷你) -->
   <ThingDef ParentName="BuildingBase">
-    <defName>ExtraordinaryHydroponicsBasinMini</defName>
+    <defName>UltraHydroponicsBasinMini</defName>
     <label>extraordinary hydroponics basin (mini)</label>
     <description>Improved high-energy hydroponics using high-energy cores. Common plants can also grow in it, and have extremely fast growth speed.</description>
     <thingClass>Building_PlantGrower</thingClass>
     <graphicData>
-      <texPath>Things/Building/Production/ExtraordinaryHydroponicsBasinMini</texPath>
+      <texPath>Things/Building/Production/UltraHydroponicsBasinMini</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <drawSize>(1,1)</drawSize>
       <damageData>
@@ -178,11 +178,77 @@
       <li Class="CompProperties_Flickable" />
     </comps>
     <researchPrerequisites>
-      <li>WanjietechExtraordinaryHydroponicsBasin</li>
+      <li>WanjietechUltraHydroponicsBasin</li>
     </researchPrerequisites>
     <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
     <designationCategory>Wanjietech</designationCategory>
   </ThingDef>
 
-
+  <!-- 奇异物质收集器 -->
+  <ThingDef ParentName="BuildingBase">
+    <thingClass>Wanjietech.Building_StrangeMatterCollector</thingClass>
+    <defName>StrangeMatterCollector</defName>
+    <label>strange matter collector</label>
+    <description>Collects trace amounts of strange matter from the universe, consuming large amounts of power.</description>
+    <tickerType>Normal</tickerType>
+    <size>(1,2)</size>
+    <graphicData>
+      <texPath>Things/Building/BioferriteHarvester/BioferriteHarvester</texPath>
+      <graphicClass>Graphic_Multi_BuildingWorking</graphicClass>
+      <drawSize>(2,3)</drawSize>
+      <shaderType>BioferriteHarvester</shaderType>
+      <addTopAltitudeBias>true</addTopAltitudeBias>
+    </graphicData>
+    <uiIconScale>0.8</uiIconScale>
+    <castEdgeShadows>true</castEdgeShadows>
+    <staticSunShadowHeight>0.20</staticSunShadowHeight>
+    <building>
+      <buildingTags>
+        <li>Production</li>
+      </buildingTags>
+    </building>
+    <drawerType>RealtimeOnly</drawerType>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.9</fillPercent>
+    <pathCost>50</pathCost>
+    <designationCategory>Wanjietech</designationCategory>
+    <uiOrder>115</uiOrder>
+    <canOverlapZones>false</canOverlapZones>
+    <defaultPlacingRot>East</defaultPlacingRot>
+    <thingCategories>
+      <li>BuildingsPower</li>
+    </thingCategories>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToBuild>4000</WorkToBuild>
+      <Flammability>0.75</Flammability>
+      <Beauty>-10</Beauty>
+      <Mass>20</Mass>
+    </statBases>
+    <costList>
+      <ComponentIndustrial>1</ComponentIndustrial>
+      <Steel>50</Steel>
+    </costList>
+    <researchPrerequisites>
+      <li>WanjietechStrangeMatterCollector</li>
+    </researchPrerequisites>
+    <comps>
+      <li Class="CompProperties_Breakdownable" />
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>100</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="Wanjietech.CompProperties_LoadStrMatCon">
+        <capacity>50.0</capacity>
+        <fuelFilter>
+          <thingDefs>
+            <li>StrangeMatterContainer</li>
+          </thingDefs>
+        </fuelFilter>
+      </li>
+    </comps>
+  </ThingDef>
 </Defs>

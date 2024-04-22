@@ -3,8 +3,32 @@
   "WorkspaceRootPath": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Wanjietech\\Sources\\Wanjietech\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2FB84DF3-982B-49EF-8B10-F6475A6A5D18}|Wanjietech.csproj|d:\\steam\\steamapps\\common\\rimworld\\mods\\wanjietech\\sources\\wanjietech\\building_recombiner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FB84DF3-982B-49EF-8B10-F6475A6A5D18}|Wanjietech.csproj|solutionrelative:building_recombiner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2FB84DF3-982B-49EF-8B10-F6475A6A5D18}|Wanjietech.csproj|d:\\steam\\steamapps\\common\\rimworld\\mods\\wanjietech\\sources\\wanjietech\\building_strangemattercollector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FB84DF3-982B-49EF-8B10-F6475A6A5D18}|Wanjietech.csproj|solutionrelative:building_strangemattercollector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FB84DF3-982B-49EF-8B10-F6475A6A5D18}|Wanjietech.csproj|d:\\steam\\steamapps\\common\\rimworld\\mods\\wanjietech\\sources\\wanjietech\\jobdriver_loadstrmatcon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FB84DF3-982B-49EF-8B10-F6475A6A5D18}|Wanjietech.csproj|solutionrelative:jobdriver_loadstrmatcon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FB84DF3-982B-49EF-8B10-F6475A6A5D18}|Wanjietech.csproj|d:\\steam\\steamapps\\common\\rimworld\\mods\\wanjietech\\sources\\wanjietech\\jobdriver_takestrangematteroutofcollector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FB84DF3-982B-49EF-8B10-F6475A6A5D18}|Wanjietech.csproj|solutionrelative:jobdriver_takestrangematteroutofcollector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FB84DF3-982B-49EF-8B10-F6475A6A5D18}|Wanjietech.csproj|d:\\steam\\steamapps\\common\\rimworld\\mods\\wanjietech\\sources\\wanjietech\\toils_loadstrmatcon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FB84DF3-982B-49EF-8B10-F6475A6A5D18}|Wanjietech.csproj|solutionrelative:toils_loadstrmatcon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FB84DF3-982B-49EF-8B10-F6475A6A5D18}|Wanjietech.csproj|d:\\steam\\steamapps\\common\\rimworld\\mods\\wanjietech\\sources\\wanjietech\\workgiver_takestrangematteroutofcollector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FB84DF3-982B-49EF-8B10-F6475A6A5D18}|Wanjietech.csproj|solutionrelative:workgiver_takestrangematteroutofcollector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FB84DF3-982B-49EF-8B10-F6475A6A5D18}|Wanjietech.csproj|d:\\steam\\steamapps\\common\\rimworld\\mods\\wanjietech\\sources\\wanjietech\\workgiver_loadstrmatcon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FB84DF3-982B-49EF-8B10-F6475A6A5D18}|Wanjietech.csproj|solutionrelative:workgiver_loadstrmatcon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FB84DF3-982B-49EF-8B10-F6475A6A5D18}|Wanjietech.csproj|d:\\steam\\steamapps\\common\\rimworld\\mods\\wanjietech\\sources\\wanjietech\\workgiverutilityloadstrmatcon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FB84DF3-982B-49EF-8B10-F6475A6A5D18}|Wanjietech.csproj|solutionrelative:workgiverutilityloadstrmatcon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +38,97 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Building_Recombiner.cs",
-              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Wanjietech\\Sources\\Wanjietech\\Building_Recombiner.cs",
-              "RelativeDocumentMoniker": "Building_Recombiner.cs",
-              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Wanjietech\\Sources\\Wanjietech\\Building_Recombiner.cs",
-              "RelativeToolTip": "Building_Recombiner.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "DocumentIndex": 3,
+              "Title": "Toils_LoadStrMatCon.cs",
+              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Wanjietech\\Sources\\Wanjietech\\Toils_LoadStrMatCon.cs",
+              "RelativeDocumentMoniker": "Toils_LoadStrMatCon.cs",
+              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Wanjietech\\Sources\\Wanjietech\\Toils_LoadStrMatCon.cs",
+              "RelativeToolTip": "Toils_LoadStrMatCon.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T06:26:42.671Z",
+              "WhenOpened": "2024-04-22T15:19:15.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WorkGiver_LoadStrMatCon.cs",
+              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Wanjietech\\Sources\\Wanjietech\\WorkGiver_LoadStrMatCon.cs",
+              "RelativeDocumentMoniker": "WorkGiver_LoadStrMatCon.cs",
+              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Wanjietech\\Sources\\Wanjietech\\WorkGiver_LoadStrMatCon.cs",
+              "RelativeToolTip": "WorkGiver_LoadStrMatCon.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T15:18:49.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "JobDriver_LoadStrMatCon.cs",
+              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Wanjietech\\Sources\\Wanjietech\\JobDriver_LoadStrMatCon.cs",
+              "RelativeDocumentMoniker": "JobDriver_LoadStrMatCon.cs",
+              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Wanjietech\\Sources\\Wanjietech\\JobDriver_LoadStrMatCon.cs",
+              "RelativeToolTip": "JobDriver_LoadStrMatCon.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwBgAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T15:16:55.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "JobDriver_TakeStrangeMatterOutOfCollector.cs",
+              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Wanjietech\\Sources\\Wanjietech\\JobDriver_TakeStrangeMatterOutOfCollector.cs",
+              "RelativeDocumentMoniker": "JobDriver_TakeStrangeMatterOutOfCollector.cs",
+              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Wanjietech\\Sources\\Wanjietech\\JobDriver_TakeStrangeMatterOutOfCollector.cs",
+              "RelativeToolTip": "JobDriver_TakeStrangeMatterOutOfCollector.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAQwCQAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T15:15:57.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WorkGiver_TakeStrangeMatterOutOfCollector.cs",
+              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Wanjietech\\Sources\\Wanjietech\\WorkGiver_TakeStrangeMatterOutOfCollector.cs",
+              "RelativeDocumentMoniker": "WorkGiver_TakeStrangeMatterOutOfCollector.cs",
+              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Wanjietech\\Sources\\Wanjietech\\WorkGiver_TakeStrangeMatterOutOfCollector.cs",
+              "RelativeToolTip": "WorkGiver_TakeStrangeMatterOutOfCollector.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T15:12:57.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Building_StrangeMatterCollector.cs",
+              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Wanjietech\\Sources\\Wanjietech\\Building_StrangeMatterCollector.cs",
+              "RelativeDocumentMoniker": "Building_StrangeMatterCollector.cs",
+              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Wanjietech\\Sources\\Wanjietech\\Building_StrangeMatterCollector.cs",
+              "RelativeToolTip": "Building_StrangeMatterCollector.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T12:03:22.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WorkGiverUtilityLoadStrMatCon.cs",
+              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Wanjietech\\Sources\\Wanjietech\\WorkGiverUtilityLoadStrMatCon.cs",
+              "RelativeDocumentMoniker": "WorkGiverUtilityLoadStrMatCon.cs",
+              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Wanjietech\\Sources\\Wanjietech\\WorkGiverUtilityLoadStrMatCon.cs",
+              "RelativeToolTip": "WorkGiverUtilityLoadStrMatCon.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAQwDEAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T15:12:59.466Z",
               "EditorCaption": ""
             },
             {

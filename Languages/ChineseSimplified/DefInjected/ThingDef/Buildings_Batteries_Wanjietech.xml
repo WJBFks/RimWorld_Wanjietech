@@ -19,10 +19,10 @@
   <WanjieAdvancedBattery.description>电池的存储容量和效率进一步提高。</WanjieAdvancedBattery.description>
 
 
-  <!-- 超凡电池 -->
+  <!-- 极致电池 -->
 
-  <WanjieExtraordinaryBattery.label>超凡电池</WanjieExtraordinaryBattery.label>
-  <WanjieExtraordinaryBattery.description>万劫科技最先进的技术电池具有极高的存储容量和几乎无损的效率。此外，它不会在雨中短路。</WanjieExtraordinaryBattery.description>
+  <WanjieUltraBattery.label>极致电池</WanjieUltraBattery.label>
+  <WanjieUltraBattery.description>万劫科技最先进的技术电池具有极高的存储容量和几乎无损的效率。此外，它不会在雨中短路。</WanjieUltraBattery.description>
 
 
 </LanguageData>

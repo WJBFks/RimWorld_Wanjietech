@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <!-- 古代万劫科技 -->
+  <!-- 远古万劫科技 -->
 
-  <!--<AncientWanjietech.label>古代万劫科技</AncientWanjietech.label>-->
-  <!--<AncientWanjietech.description>古代的万劫科技，你可以进行一些简单的研究。</AncientWanjietech.description>-->
+  <!--<AncientWanjietech.label>远古万劫科技</AncientWanjietech.label>-->
+  <!--<AncientWanjietech.description>远古的万劫科技，你可以进行一些简单的研究。</AncientWanjietech.description>-->
 
 
   <!-- 现代万劫科技 -->
@@ -19,10 +19,10 @@
   <!--<AdvancedWanjietech.description>您可以研究万劫科技的高级项目。</AdvancedWanjietech.description>-->
 
 
-  <!-- 超凡万劫科技 -->
+  <!-- 极致万劫科技 -->
 
-  <!--<ExtraordinaryWanjietech.label>超凡万劫科技</ExtraordinaryWanjietech.label>-->
-  <!--<ExtraordinaryWanjietech.description>你即将达到万劫科技的巅峰，但很多项目你都无法独立完成研究。</ExtraordinaryWanjietech.description>-->
+  <!--<UltraWanjietech.label>极致万劫科技</UltraWanjietech.label>-->
+  <!--<UltraWanjietech.description>你即将达到万劫科技的巅峰，但很多项目你都无法独立完成研究。</UltraWanjietech.description>-->
 
 
   <!-- 高能果 -->
@@ -43,10 +43,10 @@
   <!--<WanjietechHighEnergyHydroponicsBasin.description>随着万劫科技的发展，您对高能果的需求越来越大。研究这种独特的栽培方法可以大大加快高能果的成熟，但这种栽培方法不能应用于其他常见植物。</WanjietechHighEnergyHydroponicsBasin.description>-->
 
 
-  <!-- 超凡水栽培 -->
+  <!-- 极致水栽培 -->
 
-  <!--<WanjietechExtraordinaryHydroponicsBasin.label>超凡水栽培</WanjietechExtraordinaryHydroponicsBasin.label>-->
-  <!--<WanjietechExtraordinaryHydroponicsBasin.description>你发现你可以使用高能核心来控制输入植物的能量，这样你可以大大提高普通植物的生长速度。此外，你还顺便研究了一种小型水培，它只占一格。</WanjietechExtraordinaryHydroponicsBasin.description>-->
+  <!--<WanjietechUltraHydroponicsBasin.label>极致水栽培</WanjietechUltraHydroponicsBasin.label>-->
+  <!--<WanjietechUltraHydroponicsBasin.description>你发现你可以使用高能核心来控制输入植物的能量，这样你可以大大提高普通植物的生长速度。此外，你还顺便研究了一种小型水培，它只占一格。</WanjietechUltraHydroponicsBasin.description>-->
 
 
   <!-- 分子重组仪 -->
@@ -61,10 +61,10 @@
   <!--<WanjietechBatteries.description>允许你制造来自万劫科技的蓄电池。</WanjietechBatteries.description>-->
 
 
-  <!-- 万劫超凡电池 -->
+  <!-- 万劫极致电池 -->
 
-  <!--<WanjietechExtraordinaryBattery.label>超凡电池</WanjietechExtraordinaryBattery.label>-->
-  <!--<WanjietechExtraordinaryBattery.description>解锁万劫科技最高级的蓄电池。</WanjietechExtraordinaryBattery.description>-->
+  <!--<WanjietechUltraBattery.label>极致电池</WanjietechUltraBattery.label>-->
+  <!--<WanjietechUltraBattery.description>解锁万劫科技最高级的蓄电池。</WanjietechUltraBattery.description>-->
 
 
   <!-- 万劫仿生学 -->

@@ -2,7 +2,7 @@
 <Defs>
   <!-- 先进万劫科技 - 基础 -->
   <ResearchProjectDef Abstract="True" Name="AdvancedWanjietechBase">
-    <techLevel>Spacer</techLevel>
+    <techLevel>Industrial</techLevel>
     <tab>Wanjietech</tab>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
     <requiredResearchFacilities>
@@ -16,7 +16,7 @@
     <label>Advanced Wanjietech</label>
     <description>You can research the advanced projects of Wanjietech.</description>
     <baseCost>2000</baseCost>
-    <techLevel>Spacer</techLevel>
+    <techLevel>Industrial</techLevel>
     <researchViewX>5</researchViewX>
     <researchViewY>3</researchViewY>
     <tab>Wanjietech</tab>

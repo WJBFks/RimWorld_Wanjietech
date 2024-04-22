@@ -294,7 +294,7 @@
       <Crafting>10</Crafting>
     </skillRequirements>
     <workSkill>Crafting</workSkill>
-    <researchPrerequisite>ExtraordinaryWanjietech</researchPrerequisite>
+    <researchPrerequisite>UltraWanjietech</researchPrerequisite>
     <recipeUsers>
       <li>FabricationBench</li>
     </recipeUsers>

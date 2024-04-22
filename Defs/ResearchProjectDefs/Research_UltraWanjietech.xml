@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <!-- 超凡万劫科技 - 基础 -->
-  <ResearchProjectDef Abstract="True" Name="ExtraordinaryWanjietechBase">
-    <techLevel>Spacer</techLevel>
+  <!-- 极致万劫科技 - 基础 -->
+  <ResearchProjectDef Abstract="True" Name="UltraWanjietechBase">
+    <techLevel>Ultra</techLevel>
     <tab>Wanjietech</tab>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
     <requiredResearchFacilities>
@@ -10,9 +10,9 @@
     </requiredResearchFacilities>
   </ResearchProjectDef>
 
-  <!-- 超凡万劫科技(蓝图) - 基础 -->
-  <ResearchProjectDef Abstract="True" Name="ExtraordinaryWanjietechBase_Techprint">
-    <techLevel>Spacer</techLevel>
+  <!-- 极致万劫科技(蓝图) - 基础 -->
+  <ResearchProjectDef Abstract="True" Name="UltraWanjietechBase_Techprint">
+    <techLevel>Ultra</techLevel>
     <tab>Wanjietech</tab>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
     <requiredResearchFacilities>
@@ -27,15 +27,15 @@
     </heldByFactionCategoryTags>
   </ResearchProjectDef>
 
-  <!-- 超凡万劫科技 -->
+  <!-- 极致万劫科技 -->
   <ResearchProjectDef>
-    <defName>ExtraordinaryWanjietech</defName>
-    <label>Extraordinary Wanjietech</label>
+    <defName>UltraWanjietech</defName>
+    <label>Ultra Wanjietech</label>
     <description>You are about to reach the peak of Wanjietech, but you cannot complete many
       research projects independently.</description>
     <baseCost>4000</baseCost>
-    <techLevel>Spacer</techLevel>
-    <researchViewX>7</researchViewX>
+    <techLevel>Ultra</techLevel>
+    <researchViewX>10</researchViewX>
     <researchViewY>3</researchViewY>
     <tab>Wanjietech</tab>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
@@ -43,37 +43,37 @@
       <li>MultiAnalyzer</li>
     </requiredResearchFacilities>
     <prerequisites>
-      <li>AdvancedWanjietech</li>
+      <li>SpacerWanjietech</li>
     </prerequisites>
   </ResearchProjectDef>
 
-  <!-- 超凡水栽培 -->
-  <ResearchProjectDef ParentName="ExtraordinaryWanjietechBase_Techprint">
-    <defName>WanjietechExtraordinaryHydroponicsBasin</defName>
-    <label>Extraordinary Hydroponics Basin</label>
+  <!-- 极致水栽培 -->
+  <ResearchProjectDef ParentName="UltraWanjietechBase_Techprint">
+    <defName>WanjietechUltraHydroponicsBasin</defName>
+    <label>Ultra Hydroponics Basin</label>
     <description>You find that you can use high-energy cores to control the energy input into
       plants, so that you can greatly improve the growth rate of plants. In addition, you also
       incidentally studied a kind of mini hydroponics, which only occupies one square.</description>
     <baseCost>2000</baseCost>
-    <researchViewX>8</researchViewX>
+    <researchViewX>11</researchViewX>
     <researchViewY>6</researchViewY>
     <prerequisites>
       <li>WanjietechHighEnergyHydroponicsBasin</li>
-      <li>ExtraordinaryWanjietech</li>
+      <li>UltraWanjietech</li>
     </prerequisites>
   </ResearchProjectDef>
 
-  <!-- 万劫超凡电池 -->
-  <ResearchProjectDef ParentName="ExtraordinaryWanjietechBase_Techprint">
-    <defName>WanjietechExtraordinaryBattery</defName>
-    <label>Extraordinary Batteries</label>
+  <!-- 万劫极致电池 -->
+  <ResearchProjectDef ParentName="UltraWanjietechBase_Techprint">
+    <defName>WanjietechUltraBattery</defName>
+    <label>Ultra Batteries</label>
     <description>Unlock the most advanced battery of Wanjietech.</description>
     <baseCost>2500</baseCost>
-    <researchViewX>8</researchViewX>
+    <researchViewX>11</researchViewX>
     <researchViewY>6.5</researchViewY>
     <prerequisites>
       <li>WanjietechBatteries</li>
-      <li>ExtraordinaryWanjietech</li>
+      <li>UltraWanjietech</li>
     </prerequisites>
   </ResearchProjectDef>
 </Defs>

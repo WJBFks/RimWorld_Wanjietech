@@ -1,15 +1,16 @@
 ## 技术时代
 
-| 品质 |               | 时代     |            | 研究需求            |
-| ---- | ------------- | -------- | ---------- | ------------------- |
-| 古代 | Ancient       | 中世纪   | Medieval   | 无                  |
-| 现代 | modern        | 工业时代 | Industrial | HiTechResearchBench |
-| 先进 | Advanced      | 工业时代 | Industrial | MultiAnalyzer       |
-| 超凡 | Extraordinary | 航空时代 | Spacer     | MultiAnalyzer       |
+| 品质 |          | 时代     |            | 研究需求            |
+| ---- | -------- | -------- | ---------- | ------------------- |
+| 远古 | Ancient  | 中世纪   | Medieval   | 无                  |
+| 现代 | Modern   | 工业时代 | Industrial | HiTechResearchBench |
+| 先进 | Advanced | 工业时代 | Industrial | MultiAnalyzer       |
+| 太空 | Spacer   | 航空时代 | Spacer     | MultiAnalyzer       |
+| 极致 | Ultra    | 极致时代 | Ultra      | MultiAnalyzer       |
 
 ## 配色
 
-#### 古代
+#### 远古
 
 1. <span style="color:#451B07;font-weight:bold">■■■ 深色 ■■■</span>：#451B07
 2. <span style="color:#764E2E;font-weight:bold">■■■ 较深 ■■■</span>：#764E2E
@@ -33,7 +34,7 @@
 4. <span style="color:#253AB8;font-weight:bold">■■■ 较亮 ■■■</span>：#253AB8
 5. <span style="color:#2E48E6;font-weight:bold">■■■ 亮色 ■■■</span>：#2E48E6
 
-#### 超凡
+#### 极致
 
 1. <span style="color:#4D070B;font-weight:bold">■■■ 深色 ■■■</span>：#4D070B
 2. <span style="color:#750B11;font-weight:bold">■■■ 较深 ■■■</span>：#750B11

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <!-- 古代万劫科技 - 基础 -->
+  <!-- 远古万劫科技 - 基础 -->
   <ResearchProjectDef Abstract="True" Name="AncientWanjietechBase">
     <techLevel>Medieval</techLevel>
     <tab>Wanjietech</tab>
   </ResearchProjectDef>
 
-  <!-- 古代万劫科技 -->
+  <!-- 远古万劫科技 -->
   <ResearchProjectDef>
     <defName>AncientWanjietech</defName>
     <label>Ancient Wanjietech</label>

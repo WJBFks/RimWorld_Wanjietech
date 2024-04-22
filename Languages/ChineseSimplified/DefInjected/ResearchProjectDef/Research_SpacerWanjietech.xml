@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 太空万劫科技 -->
+
+  <SpacerWanjietech.label>太空万劫科技</SpacerWanjietech.label>
+  <SpacerWanjietech.description>当你进入太空，你就会发现万劫科技有多么神奇。</SpacerWanjietech.description>
+
+
+  <!-- 奇异物质收集器 -->
+
+  <WanjietechStrangeMatterCollector.label>奇异物质收集器</WanjietechStrangeMatterCollector.label>
+  <WanjietechStrangeMatterCollector.description>你在太空中发现了一种奇异的粒子，你将其称为奇异物质，它似乎有许多令人惊叹的特性，并且你很发现了收集它的方法。</WanjietechStrangeMatterCollector.description>
+
+
+</LanguageData>

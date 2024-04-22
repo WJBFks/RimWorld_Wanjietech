@@ -17,4 +17,39 @@
     </requiredCapacities>
     <prioritizeSustains>true</prioritizeSustains>
   </WorkGiverDef>
+
+  <!-- 奇异物质收集器 -->
+  <WorkGiverDef>
+    <defName>TakeStrangeMatterOutOfCollector</defName>
+    <label>take strange matter out of strange matter collector</label>
+    <giverClass>Wanjietech.WorkGiver_TakeStrangeMatterOutOfCollector</giverClass>
+    <workType>Hauling</workType>
+    <priorityInType>20</priorityInType>
+    <fixedBillGiverDefs>
+      <li>StrangeMatterCollector</li>
+    </fixedBillGiverDefs>
+    <verb>take strange matter</verb>
+    <gerund>taking strange matter from </gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+
+  <WorkGiverDef>
+    <defName>LoadStrMatCon</defName>
+    <label>load strange matter container to strange matter collector</label>
+    <giverClass>Wanjietech.WorkGiver_LoadStrMatCon</giverClass>
+    <workType>Hauling</workType>
+    <verb>load strange matter container</verb>
+    <gerund>loading strange matter container to </gerund>
+    <priorityInType>140</priorityInType>
+    <fixedBillGiverDefs>
+      <li>StrangeMatterCollector</li>
+    </fixedBillGiverDefs>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+    <canBeDoneByMutants>false</canBeDoneByMutants>
+  </WorkGiverDef>
 </Defs>

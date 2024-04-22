@@ -1,0 +1,4 @@
+D:\Steam\steamapps\common\RimWorld\Mods\Wanjietech\Assemblies\Wanjietech.dll
+D:\Steam\steamapps\common\RimWorld\Mods\Wanjietech\Sources\Wanjietech\obj\Debug\Wanjietech.csproj.AssemblyReference.cache
+D:\Steam\steamapps\common\RimWorld\Mods\Wanjietech\Sources\Wanjietech\obj\Debug\Wanjietech.csproj.CoreCompileInputs.cache
+D:\Steam\steamapps\common\RimWorld\Mods\Wanjietech\Sources\Wanjietech\obj\Debug\Wanjietech.dll

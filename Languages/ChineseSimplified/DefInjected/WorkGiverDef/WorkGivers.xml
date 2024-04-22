@@ -8,4 +8,17 @@
   <DoBillsMolecularRecombiner.gerund>重组于</DoBillsMolecularRecombiner.gerund>
 
 
+  <!-- 奇异物质收集器 -->
+
+  <TakeStrangeMatterOutOfCollector.label>从奇异物质收集器中提取奇异物质</TakeStrangeMatterOutOfCollector.label>
+  <TakeStrangeMatterOutOfCollector.verb>提取奇异物质</TakeStrangeMatterOutOfCollector.verb>
+  <TakeStrangeMatterOutOfCollector.gerund>提取奇异物质于</TakeStrangeMatterOutOfCollector.gerund>
+
+  <LoadStrMatCon.label>装载奇异物质容器到奇异物质收集器</LoadStrMatCon.label>
+  <LoadStrMatCon.verb>装载奇异物质容器</LoadStrMatCon.verb>
+  <LoadStrMatCon.gerund>装载奇异物质容器到</LoadStrMatCon.gerund>
+
+
+  <!-- 生成器建筑类 -->
+
 </LanguageData>

@@ -54,7 +54,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Building_Recombiner.cs" />
+    <Compile Include="Building_StrangeMatterCollector.cs" />
+    <Compile Include="CompLoadStrMatCon.cs" />
+    <Compile Include="CompProperties_LoadStrMatCon.cs" />
+    <Compile Include="Toils_LoadStrMatCon.cs" />
+    <Compile Include="Utility_WorkGiverLoadStrMatCon.cs" />
+    <Compile Include="JobDriver_LoadStrMatCon.cs" />
+    <Compile Include="JobDriver_TakeStrangeMatterOutOfCollector.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WorkGiver_LoadStrMatCon.cs" />
+    <Compile Include="WorkGiver_TakeStrangeMatterOutOfCollector.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
